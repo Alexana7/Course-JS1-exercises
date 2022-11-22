@@ -97,3 +97,99 @@
 // } else {
 //     console.log("Вы едете слишком быстро, сбавьте скорость");
 // }
+
+// ex.4.2
+
+// const price = "-5 rub";
+// const result = Number.parseInt(price);
+// if (Number.isNaN(result)) {
+//     console.log("Не число");
+// }
+// else if (result <= 0) {
+//     console.log("Число не корректное");
+// }
+// else {
+//     console.log(result);
+// }
+
+// ex.4.3
+
+// const a = 32;
+// const b = 5;
+// const c = 14;
+
+// if (a > b && a > c) {
+//     console.log(a);
+// } else if (b > a && b > c) {
+//     console.log(b);
+// } else {
+//     console.log(c);
+// }
+
+
+// ex.4.4
+
+// const temp = 24;
+// const weather = "clear";
+
+// let activity;
+
+// if (temp >= 25 && weather == "clear") {
+//     console.log(activity = "golf");
+// } else if (temp >= 10 && weather == "clear") {
+//     console.log(activity = "bowling");
+// }
+// else {
+//     console.log(activity = "hiking");
+// }
+
+// ex.4.5
+
+// const word_1 = "машина";
+// const word_2 = "стол";
+
+// console.log(word_1.length > word_2.length ? word_1 : word_2);
+
+// ex.4.6
+// let task = "редактировать";
+// switch(task) {
+//     case "удалить": console.log("delete");
+//     break;
+//     case "переименовать": console.log("rename");
+//     break;
+//     case "редактировать": console.log("edit");
+//     break;
+// }
+
+// // ex.4.7
+
+// let range = "week";
+// let price = 10000;
+
+// switch (range) {
+//     case "day": range = "день"; console.log(`${price} Р в ${range}`);
+//     break;
+//     case "month": range = "месяц"; console.log(`${price} Р в ${range}`); 
+//     break;
+//     default: range = "неделю"; console.log(`${price} Р в ${range}`);  
+// }
+
+// // ex.4.8
+
+// let a = 2;
+// let b = 2;
+// console.log(null + undefined)
+
+// let sign = "/";
+
+// switch(sign) {
+//    case "+": console.log(a + b);
+//    break;
+//    case "-": console.log(a - b);
+//    break;
+//    case "/": console.log( b != 0 ? (a / b) : "Делить на 0 нельзя!");
+//    break;
+//    case "*": console.log(a * b);
+//    break;
+// }
+
