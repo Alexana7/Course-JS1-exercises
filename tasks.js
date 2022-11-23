@@ -193,3 +193,42 @@
 //    break;
 // }
 
+// ex.5.1
+
+// let end = 150;
+// let sum = 0;
+
+// for (let i = 0; i <= end; i+=5) {
+//     sum += i;
+// }   
+// console.log(sum);
+
+// ex.5.2 
+// const word = "мирамир";
+// let newWord = '';
+// for (let i = word.length - 1; i >= 0;  i--) 
+//     newWord += word[i];
+// }
+// console.log(newWord);
+
+// ex.5.3 
+// let word = "Мим";
+// let newWord = '';
+
+// word = word.toLowerCase(); 
+// for (let i = word.length - 1; i >= 0;  i--) {
+//     newWord += word[i]; 
+// }
+// if (newWord === word) {
+//     console.log("Слово является палиндромом!");
+// }
+// else {
+//     console.log("Слово не является палиндромом!");
+// }
+
+ 
+
+
+
+
+
