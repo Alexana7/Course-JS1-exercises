@@ -169,6 +169,22 @@
 // }
 // getReverseArray(list)
 
+// ex.9.9
+// let sentence = "Завтра будет лучше чем вчера";
+// let array = [];
+// let word = '';
+// sentence = sentence + ' ';
+// for (let i = 0; i < sentence.length; i++) {
+//      if(sentence[i] !== ' ') {
+//          word += sentence[i];
+//      } else {
+//          array.push(word);
+//          word = '';
+//      }
+//  }
+// console.log(array);
+
+
 
 // ex.9.10
 
@@ -247,6 +263,14 @@
 
 // const list = ["Лёша", "default", "полке", "клопа", "нашёл"];
 
+// let counter = 0;
+// for (let item of list) {
+//     if (item.toLowerCase() !== "default") {
+//         counter++;
+//     }
+// }
+// console.log(counter)
+
 // function stringsCounter (arr) {
 //     let newArr = [];
 //     for (let item of arr) {
@@ -260,16 +284,34 @@
 // ex.9.16
 
 // const list = ["почтовый","желание","абсолютный","закрытый"];
-
-// function getFirstLetter(arr) {
-//     let newArr = [];
-//     for (let i = 0; i < arr.length; i++) {
-//         newArr.push(arr[i][0]);
-
+//     let string = '';
+//     for (let item of list) {
+//         string += item[0];
 //     }
-//     return console.log(newArr.join(''));
+// console.log(string)
+
+// ex.9.17
+
+
+// let obj = {
+//     "Яблоко": "фрукт",
+//     "Арбуз": "ягода",
+//     "Помидор": "овощ",
+//     "Огурец": "овощ",
+//     "Вишня": "ягода"
+// };
+
+// let hash = {};
+
+// for (let key in obj) {
+//     if (hash[obj[key]]) {
+//         hash[obj[key]]++;
+//     } else {
+//         hash[obj[key]] = 1;
+//     }
 // }
-// getFirstLetter(list)
+
+// console.log(hash)
 
 // ex. 9.18
 
@@ -290,5 +332,4 @@
 //            console.log(item['product'])
 //        }
 //    }
-
 
