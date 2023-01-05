@@ -50,6 +50,15 @@
 // console.log(num)
 // num = (num % 2 === 0) ? console.log(String.fromCodePoint(num)) : console.log("Символ обнаружить не удалось"); 
 
+
+// ex.1.8
+
+// let phone = "+712:34567*8,90";
+// let reg = /(\+\d+)?[^,:*\s]?(\d+)/g;
+// let res = phone.match(reg);
+// console.log(res.join(''));
+
+
 // ex.1.9
 // v.1
 // emails = "example@ex.ru primer@primer.com email@com.ru";
@@ -58,3 +67,19 @@
 // let result = emails.match(reg);
 // console.log(result || ['']);
 
+// ex.1.10
+
+// let tickets = ["BM-12234567:RU", "SD-122345674573:RU", "VG-590234543245:EN", "FF-1267:RU"];
+
+// let reg1 = /[a-z-]\d{8}\D/i;
+// let reg2 = /[a-z-]\d{12}\D/i;
+// for (let ticket of tickets) {
+//     console.log(ticket)
+//     if (reg1.test(ticket)) {
+//         console.log("Выбран билет на концерт")
+//     } else if (reg2.test(ticket)) {
+//         console.log("Выбран билет в театр")
+//     } else {
+//         console.log("Билет не определен")
+//     }
+// }
